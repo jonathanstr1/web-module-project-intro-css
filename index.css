@@ -1,0 +1,126 @@
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:ital,wght@0,400;1,700&display=swap');
+
+
+
+
+* {
+  border: 1px solid black;
+}
+body {
+  font-family: 'Roboto Mono', monospace;
+  
+}
+header img {
+  width:384px;
+  height:384px;
+  border-radius: 50%;
+  margin: 50px;
+
+}
+
+
+.navdiv {
+  height: 100px;
+  align-content: center; 
+}
+nav {
+  display: inline;
+  height: 50px;
+  width: 100vw;
+  align-content: center;
+  color: white;
+  margin-top: 30px;
+}
+nav span {
+  width: 200px;
+}
+
+nav a {
+  color: white;
+  font-size: 16pt;
+  padding: 30px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.title {
+  text-align: center;
+  margin-left: 450px;
+}
+
+
+
+.buttonA {
+  background: #FF764E;
+}
+
+.buttonB {
+  background: #5ED3EB;
+}
+
+.buttonC {
+  background: #FFCD69;
+}
+
+h1 {
+  margin-top: -380px;.
+  text-align: center;
+  font-size: 70pt;
+}
+header p {
+  font-size: 20pt;
+  padding: 40px;
+}
+.boxtan {
+  color: white;
+  background: #DDB9A3;
+  padding:  20px;
+  font-size: 20pt;
+}
+.fire {
+  display: block;
+  margin: auto;
+  width: 30%;
+  text-align: center;
+}
+.fire img {
+  display: block;
+  width:192px;
+  height:192px;
+  margin: auto;
+  
+}
+.lodge {
+  display: block;
+  margin: auto;
+  width: 30%;
+  text-align: center;
+}
+.lodge img {
+  display: block;
+  width:192px;
+  height:192px;
+  margin: auto;
+}
+
+
