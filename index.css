@@ -1,4 +1,4 @@
-/* html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -17,7 +17,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}*/
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:ital,wght@0,400;1,700&display=swap');
 
@@ -46,7 +46,7 @@ header img {
 }
 nav {
   display: inline;
-  height: 50px;
+  height: 150px;
   width: 100vw;
   align-content: center;
   color: white;
@@ -66,6 +66,7 @@ nav a {
 .title {
   text-align: center;
   margin-left: 450px;
+  font: 'Chelsea Market' ;
 }
 
 
@@ -90,17 +91,19 @@ h1 {
 header p {
   font-size: 20pt;
   padding: 40px;
+  margin-top: -40px;
 }
 .boxtan {
   color: white;
   background: #DDB9A3;
   padding:  20px;
   font-size: 20pt;
+  margin-top: 90px;
 }
 .fire {
   display: block;
   margin: auto;
-  width: 30%;
+  width: 20%;
   text-align: center;
 }
 .fire img {
@@ -113,7 +116,7 @@ header p {
 .lodge {
   display: block;
   margin: auto;
-  width: 30%;
+  width: 20%;
   text-align: center;
 }
 .lodge img {
@@ -121,6 +124,13 @@ header p {
   width:192px;
   height:192px;
   margin: auto;
+}
+footer {
+
+}
+footer img {
+  height: 180px;
+  width: 100%;
 }
 
 
