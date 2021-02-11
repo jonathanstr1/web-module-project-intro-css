@@ -118,6 +118,7 @@ header p {
   margin: auto;
   width: 20%;
   text-align: center;
+  margin-top: 80px;
 }
 .lodge img {
   display: block;
@@ -126,10 +127,13 @@ header p {
   margin: auto;
 }
 footer {
-
+  height: 180px;
+  overflow:hidden;
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 footer img {
-  height: 180px;
+  display:block;
   width: 100%;
 }
 
